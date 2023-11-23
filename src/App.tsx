@@ -1,12 +1,11 @@
 import React from 'react';
 import {ThemeProvider, createTheme} from '@mui/material/styles'
 import './App.css';
-import {BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Home} from "./pages/home/home";
 import {ContactMe} from "./pages/contact-me/contact-me";
 import {Portfolio} from "./pages/portfolio/portfolio";
 import Header from "./layouts/header/header";
-import NavTimeline from "./layouts/timeline/nav-timeline";
 
 const darkTheme = createTheme({
   palette:{
