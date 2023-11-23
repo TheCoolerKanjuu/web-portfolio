@@ -1,3 +1,7 @@
-.section-skills {
-    background-color : #ffa8a8;
+.skills-section {
+    background-color : #C62368;
+}
+
+.skills-layer {
+    background-image: url("../../../assets/waves/skills-to-projects.svg");
 }

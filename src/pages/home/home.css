@@ -1,25 +1,8 @@
-.element {
-    height: 100vh;
-
-    padding-top: var(--header-navbar-height);
-
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.y-mandatory {
-    scroll-snap-type: y mandatory;
-}
-
-.container {
-    height: 100vh;
-
-    overflow-y: scroll;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-
-    scrollbar-width: none;  /* Firefox */
-    &::-webkit-scrollbar {
-        display: none;
-    }
-}

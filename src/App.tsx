@@ -5,9 +5,9 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Home} from "./pages/home/home";
 import {ContactMe} from "./pages/contact-me/contact-me";
 import {Portfolio} from "./pages/portfolio/portfolio";
-import Header from "./layouts/header/header";
+import AnimatedRoutes from "./components/routing/Animated-routes";
 
-const darkTheme = createTheme({
+const theme = createTheme({
   palette:{
     mode: 'light'
   }
@@ -16,14 +16,9 @@ const darkTheme = createTheme({
 function App() {
 
   return (
-      <ThemeProvider theme={darkTheme}>
+      <ThemeProvider theme={theme}>
         <BrowserRouter>
-          <Header/>
-          <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/contact-me" element={<ContactMe/>}/>
-            <Route path="/portfolio" element={<Portfolio/>}/>
-          </Routes>
+            <AnimatedRoutes/>
         </BrowserRouter>
       </ThemeProvider>
   );
