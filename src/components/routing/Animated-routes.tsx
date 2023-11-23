@@ -5,10 +5,9 @@ import {Portfolio} from "../../pages/portfolio/portfolio";
 import "./animated-routes.css"
 import React from "react";
 
-import {AnimatePresence, motion, useIsPresent} from 'framer-motion'
+import {AnimatePresence} from 'framer-motion'
 
 export default function AnimatedRoutes() {
-    const isPresent = useIsPresent();
     const location = useLocation()
 
     return (

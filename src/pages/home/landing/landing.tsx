@@ -1,5 +1,4 @@
 import "./landing.css"
-import {ReactComponent as Wave} from "../../../assets/waves/landing-to-skills.svg";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
 
