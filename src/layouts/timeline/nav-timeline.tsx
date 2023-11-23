@@ -27,13 +27,20 @@ export default function NavTimeline(props: Props) {
                     <TimelineDot />
                     <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent>Eat</TimelineContent>
+                <TimelineContent>Who am i?</TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent>Skill set</TimelineContent>
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineDot />
                 </TimelineSeparator>
-                <TimelineContent>Code</TimelineContent>
+                <TimelineContent>Projects</TimelineContent>
             </TimelineItem>
         </Timeline>
     );

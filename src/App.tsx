@@ -9,7 +9,7 @@ import Header from "./layouts/header/header";
 
 const darkTheme = createTheme({
   palette:{
-    mode: 'dark'
+    mode: 'light'
   }
 });
 
