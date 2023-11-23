@@ -1,0 +1,25 @@
+.element {
+    height: 100vh;
+
+    padding-top: var(--header-navbar-height);
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.y-mandatory {
+    scroll-snap-type: y mandatory;
+}
+
+.container {
+    height: 100vh;
+
+    overflow-y: scroll;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+
+    scrollbar-width: none;  /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}

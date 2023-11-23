@@ -1,0 +1,9 @@
+:root {
+    --header-navbar-height: 7vh;
+}
+
+.appbar {
+    height: var( --header-navbar-height);
+    background: transparent;
+    boxShadow: none;
+}
