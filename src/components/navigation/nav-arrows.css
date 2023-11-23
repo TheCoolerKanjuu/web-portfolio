@@ -1,0 +1,25 @@
+.nav-arrow {
+    position: fixed;
+    top: 50%;
+}
+
+.right {
+    right: 2%
+}
+
+.left {
+    left: 2%
+}
+
+.example-container div{
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    background: white;
+    opacity: 0.6;
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}

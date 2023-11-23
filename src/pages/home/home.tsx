@@ -11,7 +11,7 @@ export const Home = () => {
                 <Landing/>
                 <Skills/>
                 <Projects/>
-                <NavTimeline currentLocation={"landing"}/>
+                <NavTimeline/>
             </motion.div>
     )
 }
