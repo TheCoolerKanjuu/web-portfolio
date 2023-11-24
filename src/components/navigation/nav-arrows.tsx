@@ -14,14 +14,14 @@ export default function NavArrows() {
     function handleLeftClick() {
         console.log(location.pathname)
         let index = routes.indexOf(location.pathname)
-        if(index == 0) navigate("/portfolio")
+        if(index === 0) navigate("/portfolio")
         else navigate(routes[index - 1])
     }
 
     function handleRightClick() {
         console.log(location.pathname)
         let index = routes.indexOf(location.pathname)
-        if(index == 2) navigate("/home")
+        if(index === 2) navigate("/home")
         else navigate(routes[index + 1])
     }
 
