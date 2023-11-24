@@ -1,0 +1,18 @@
+html {
+  min-width: 100vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  height: 100vh;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*# sourceMappingURL=App.css.map */
